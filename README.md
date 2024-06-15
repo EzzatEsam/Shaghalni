@@ -1,7 +1,9 @@
 # Shaghalni
 
 ## Introduction
-This is a freelancing platform built using Flask.
+This is a freelancing platform built using Flask. deployed using azure pipelines and docker. utilized testing using pytest and selenium.\\
+The UI is made using jinja templates and bootstrap. \\
+The backend is made using flask and flask-sqlalchemy.
 
 ## Features
 - User authentication
@@ -9,10 +11,24 @@ This is a freelancing platform built using Flask.
 - Job posting and bidding
 - Payment processing
 
+## Screenshots
+
+<img src="screenshots/1.png"  height="300">
+<img src="screenshots/2.png"  height="300">
+<img src="screenshots/3.png"  height="300">
+<img src="screenshots/4.png"  height="300">
+<img src="screenshots/5.png"  height="300">
+
+
+
 ## Installation
 1. Clone the repository
-2. Make sure python 3.8+ and flask are installed
-3. Run the app using flask run
+2. Make sure python 3.8+ is installed
+3. install the requirements
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 1. Register a new account or login to an existing one
@@ -35,4 +51,4 @@ python main.py
 
 ### Viewing The Wesite
 
-Go to `http://127.0.0.1:5000`
+Go to `http://127.0.0.1:80`
